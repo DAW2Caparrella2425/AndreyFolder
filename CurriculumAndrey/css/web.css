@@ -1,0 +1,185 @@
+/*Barra de navegacion*/
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+a{
+    margin:20px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+
+    color: #FFD700; 
+    
+}
+/*Pagina sobre mi*/
+.title{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgb(253, 250, 255);
+    padding-bottom: 5px; 
+
+}
+.subtitle {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.imagen{
+    width: 500px;
+    height: 440px;
+    border: 5px solid #333; /* Añade un borde sólido */
+      border-radius: 15px; /* Esquinas redondeadas */
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Añade sombra a la imagen */
+    
+}
+
+.div1{
+    width: 50%;
+}
+.div2{
+    float: right;
+    width: 50%;
+    
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #585757;
+    border-radius: 8px;
+   
+}
+.linki{
+    color: green;   
+}
+#sobre{
+    font-size: 25px;
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #000000;
+}
+.aptitudes li {
+    background-color: #e7f3ff;
+    border-left: 5px solid blueviolet;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: #333;
+    font-size: 1.1em;
+}
+.aptitudes  {
+    list-style-type: none;
+    padding: 0;
+}
+.container{
+    display:flex;
+}
+
+/* Pagina de contacto*/
+#container{
+    display:flex;
+    
+}
+
+#div2{
+    float: right;
+    width: 50%;
+}
+
+
+/* Pagina de Experiencia*/
+#experiencia{
+    display:flex;
+    justify-content: center;
+}
+#experiencia>div{
+    background-color: gray;
+    margin: 15px;
+    padding:15px;
+    border:3px solid black;
+    position: relative;
+    width: 300px;
+    height: 270px;
+}
+#exp{
+    text-align:center;
+}
+#mozo{
+    background-image: url('/img/mozo.jpg') ;
+    background-size: cover;
+}
+#reponedor{
+    background-image: url('/img/reponedor.jpg') ;
+    background-size: cover;
+}
+#moz{
+    color: white;
+}
+#rep{
+    color: rgb(255, 255, 255);
+}
+/* Pagina de Estudis*/
+#estudis{
+    display:flex;
+    justify-content: center;
+}
+#estudis>div{
+    background-color: rgb(13, 43, 238);
+    margin: 15px;
+    padding:15px;
+    border:3px solid black;
+    position: relative;
+    width: 300px;
+    height: 270px;
+}
+#est{
+    text-align:center; 
+}
+.data{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.curso{
+    text-align: center;
+    line-height:200px;
+}
+#ESO{
+    background-image: url('/img/joan.jpg') ;
+    background-size: cover;
+}
+#CFGM{
+    background-image: url('/img/capa.jpg') ;
+    background-size: cover;
+}
+#CFGS{
+    background-image: url('/img/capa2.jpg') ;
+    background-size: cover;
+}
+/* Pagina de Idiomes*/
+.idiomes li {
+    background-color: #e7f3ff;
+    border-left: 5px solid blueviolet;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: #333;
+    font-size: 1.1em;
+}
+.idiomes  {
+    list-style-type: none;
+    padding: 0;
+}
+.imagen2{
+    width: 600px;
+    height: 500px;
+    border: 5px solid #333; /* Añade un borde sólido */
+      
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Añade sombra a la imagen */
+    
+}
+
+
