@@ -83,6 +83,9 @@ a:hover{
     display:flex;
     
 }
+#div1{
+    width: 50%;
+}
 
 #div2{
     float: right;
